@@ -16,4 +16,4 @@ Currently training to achieve **CompTIA Security+** certification and consistent
 📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/mirko-bracciante-33584a315/)
 
 ---
-👉 **[View My Lab Index & Projects](./LAB_INDEX.md)**
+👉 **[View My Lab Index & Projects](./LABS_INDEX.md)**
