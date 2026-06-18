@@ -17,4 +17,4 @@ Attualmente in formazione per la certificazione **CompTIA Security+** e costante
 
 ---
 
-👉 **[View My Lab Index & Projects](./LABS_INDEX.md)**
+👉 **[View My Lab Index & Projects](./labs)**
