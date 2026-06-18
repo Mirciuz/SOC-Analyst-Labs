@@ -27,4 +27,4 @@ Query Crafting: Writing complex filtering queries does not feel entirely natural
 Mastering Sysmon: I want to dive deeper into configuring and reading Sysmon logs, as I’ve learned they provide much more granular visibility compared to standard Windows logs.
 SIEM Integration: My next goal is to understand how these Windows logs are ingested into a SIEM (like Splunk) and to start practicing the creation of correlation rules to detect these patterns automatically.
 
-*Return to [Lab Index](/labs)*
+
