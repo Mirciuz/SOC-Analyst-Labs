@@ -26,10 +26,13 @@ I am dedicated to bridging the gap between theory and practice, continuously ref
 ---
 
 ## 📂 Lab Projects & Index
-👉 **[Click here to view my detailed Lab Index & Analysis](./labs)**
+
+<a href="./labs" target="_blank">👉 View My Lab Index & Projects</a>
 
 ---
 
 ## 📬 Connect with me
 
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/mirko-bracciante-33584a315/)
+<a href="https://www.linkedin.com/in/mirko-bracciante-33584a315/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
