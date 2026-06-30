@@ -30,8 +30,5 @@
 * **Linux Persistence:** I want to dive deeper into how attackers maintain persistence in Linux (e.g., cron jobs, SSH keys) for the upcoming labs.
 
 ---
-## 💡 Investigation Methodology
-*(Link to [Investigative Methodology](/labs/investigative-methodology.md))*
 
----
 *Return to [Lab Index](/labs)*
