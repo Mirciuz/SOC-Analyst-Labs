@@ -1,5 +1,5 @@
-cco la traduzione professionale e ottimizzata per un pubblico internazionale su LinkedIn o GitHub:
 🛡️ SOC-Analyst-Labs
+
 A portfolio of security operations center (SOC) lab simulations. Documentation of incident response lifecycles, SIEM triage, and network forensics. Actively enhancing technical expertise through hands-on practice, transitioning into a professional SOC analyst role.
 
 🛠 Skills & Tools
