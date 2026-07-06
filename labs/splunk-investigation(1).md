@@ -19,7 +19,8 @@
 * **Technique:** Use of WMI (Windows Management Instrumentation) for remote process creation.
 * **Command Identified:**
   `"C:\windows\System32\Wbem\WMIC.exe" /node:WORKSTATION6 process call create "net user /add A1berto paw0rd1"`
-* **Target:** `James.browne` (Host identified as the source of suspicious PowerShell activity).
+* **Technical Analysis:** The adversary leveraged `wmic.exe` to execute a command on a remote host (`WORKSTATION6`) without requiring interactive login. This is a classic **Living-off-the-Land (LotL)** technique used to bypass security controls. By calling `process call create`, the attacker forced the remote system to execute the `net user` command, successfully creating the backdoor account `A1berto` with the password `paw0rd1`.
+* **Target:** `James.browne` (Identified as the host where the initial malicious PowerShell script was staged and executed).
 
 ### 3. PowerShell Analysis & De-obfuscation
 * **Logging:** Identified `79` events related to PowerShell execution using Event ID `4103`.
@@ -35,10 +36,11 @@
 * **Tooling:** Gained proficiency in using Splunk as a primary investigative tool, specifically moving from raw log analysis to targeted search queries.
 
 ---
+
 ## 💡 Triage Decision Framework
-* **Containment:** Host `James.browne` must be isolated.
-* **Eradication:** Delete backdoor user `A1berto` and purge malicious registry keys.
-* **Remediation:** Investigate the source IP `10.10.10.5` for potential lateral movement across the network.
+* **Containment:** Host `James.browne` must be isolated immediately.
+* **Eradication:** Delete the unauthorized backdoor user `A1berto` and purge the associated malicious registry keys.
+* **Remediation:** Investigate the source IP `10.10.10.5` for signs of further lateral movement across the network and review firewall logs for additional outbound connections.
 
 ---
 *Return to [Lab Index](/labs)*
